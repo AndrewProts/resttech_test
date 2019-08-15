@@ -1,0 +1,57 @@
+.home
+  width: 100%
+  display: flex
+  flex-direction: column
+  align-content: center
+  align-items: center
+  padding: 20px
+  .results
+    width: 100%
+    display: flex
+    flex-direction: column
+    margin-top: 20px
+    overflow: hidden
+    .item
+      width: 100%
+      margin-bottom: 20px
+      display: flex
+      .right
+        width: calc(100% - 160px)
+        padding-left: 20px
+        display: flex
+        flex-direction: column
+        .name
+          font-size: 24px
+          width: 100%
+          margin-bottom: 10px
+      .album-icon
+        width: 160px
+        height: 160px
+        background-position: center
+        background-size: cover
+  .search-wrap
+    width: 100%
+    display: flex
+    flex-direction: column
+    .checkboxes
+      margin-bottom: 20px
+      display: flex
+      label
+        margin-right: 20px
+        cursor: pointer
+        display: flex
+        align-content: center
+        align-items: center
+        font-size: 18px
+    .input
+      display: flex
+      width: 100%
+      input
+        width: calc(100% - 220px)
+        height: 40px
+        padding: 0 20px
+      button
+        width: 200px
+        margin-left: 20px
+        height: 40px
+        cursor: pointer
